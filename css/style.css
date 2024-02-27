@@ -384,7 +384,7 @@ header {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-content: center;
   align-items: center;
 }
@@ -399,18 +399,14 @@ header {
 
 .portfolio__img {
   width: 200px;
-  height: 100px;
+  height: 200px;
   border-radius: 55%;
   transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
 }
 
-.portfolio__img__gb {
-  width: 200px !important;
-  height: 200px !important;
-  border-radius: 50% !important;
-  transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
-    opacity 250ms linear !important;
+.portfolio__img__ma {
+  border: solid thin red;
 }
 
 .portfolio__item:focus {
@@ -419,7 +415,6 @@ header {
 }
 
 .portfolio__img:hover,
-.portfolio__img__gb:hover,
 .portfolio__item:focus .portfolio__img {
   transform: scale(1.05);
   opacity: .75;
