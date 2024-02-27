@@ -387,11 +387,9 @@ header {
   grid-template-columns: repeat(2, 1fr);
   align-content: center;
   align-items: center;
-  /* border: solid black; */
 }
 
 .portfolio__item {
-  /* border: solid black; */
   background: var(--clr-dark);
   overflow: visible;
   margin-left: 20px;
