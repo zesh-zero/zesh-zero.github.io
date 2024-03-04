@@ -65,6 +65,14 @@ strong { font-weight: var(--fw-bold); }
   outline-offset: 3px;
 }
 
+.lineLink {
+  text-decoration: none;
+  color: darkred;
+}
+.lineLink:hover {
+  color: var(--clr-accent);
+}
+
 /* buttons */
 
 .btn {
